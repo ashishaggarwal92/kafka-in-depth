@@ -9,7 +9,9 @@ Repository For Kafka Understanding
 - Messaging System
 - Point to Point vs Publish Subscribe
 
-2) 
+2) Kafka Architecture and Features
+
+3)
 
 
 
