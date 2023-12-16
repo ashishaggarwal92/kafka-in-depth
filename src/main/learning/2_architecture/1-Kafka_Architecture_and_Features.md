@@ -51,8 +51,9 @@ After distribution partition are replicated to multiple brokers to prevent data 
 - are application which produces/write data to topics/partitions within a cluster
 
 Writing data at topic level:
-- If a topic has 3 partition and producer is writing data at topic level then message will be public in round-robin fashion to all partition
+- If a topic has 3 partition and producer is writing data at topic level then message will be published in round-robin fashion to all partitions
 message 1 to partition 1, msg 2 to partition 2 and so on
+
 Writing data at partition level:
 - producer can write data at partition level using some configuration(cover later)
 
@@ -63,11 +64,11 @@ Writing data at partition level:
 
 
 **Brokers:**
-- are the software processes who manage the topics ans the messages present in the topics
-- also managers the consumers by holding info about messages consumer by consumer from topics and partitions
+- are the software processes who manage the topics and the messages present in the topics
+- manages the consumers by holding info about messages consumer by consumer from topics and partitions
 - also known as kafka servers
-- also manages the consumer-offset and are responsible for the delivery of messages  to the right consumer
-- a set of brokers who are communicating with each other to perform the management and maintainence task are collectively known as Kafka CLuster
+- manages the consumer-offset and are responsible for the delivery of messages  to the right consumer
+- a set of brokers who are communicating with each other to perform the management and maintenance task are collectively known as Kafka CLuster
 - we can add more brokers in already running kafka cluster without any downtime
 - There will be one controller among multiple brokers
 
@@ -81,7 +82,7 @@ Writing data at partition level:
 - a set of ZK nodes working together to manage other distributed system is known as ZK cluster or ZK Ensemble
 
 
-Features:
+### Features of KAFKA:
 
 - Scalable - Horizontal scaling is done by adding new brokers
 - Fault tolerant - can handle failures because of its distributed nature
@@ -89,4 +90,4 @@ Features:
 - Performance - high throughput
 - No data loss
 - Zero down time
-- Reliablity
+- Reliability
