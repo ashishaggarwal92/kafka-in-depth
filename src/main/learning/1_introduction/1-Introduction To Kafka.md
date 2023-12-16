@@ -32,8 +32,10 @@ Still better than centralized approach. To overcome this problem we have another
 
 2) Or copy entire entity in multiple location. We called this approach as replication.
 100 records will be stored in multiple location
-Demerit - more space is getting used. Data redundancy is increased
-Merit: if one system crashes even though we can recover the entire entit from other system
+
+**Demerit** - more space is getting used. Data redundancy is increased
+
+**Merit**: if one system crashes even though we can recover the entire entity from other system
 
 Kafka follow both type of distribution. It is up to us which configuration we set.
 
@@ -45,28 +47,29 @@ In this example we have 3 source system and 4 destination system.
 All source system are sending data to all destination system
 We have total 12 connection in total. This is just an example. In case of enterprise system we have thousands of system communication to each other
 
-Each connection comes with own difficulties like data format. conncection type(http, tcp, jdbc), schema.
-For an enterprise managing these connection is bottleneck. To solve this problem (no of coonection, tightly coupled), messaging system comes to rescue.
+Each connection comes with own difficulties like data format, connection type(http, tcp, jdbc), schema.
+For an enterprise managing these connection is bottleneck. To solve this problem (number of connection, tightly coupled), messaging system comes to rescue.
 
 ![img_4.png](5_Messaging_System.png)
 
 now the source service will send the data to messaging system only and destination service will pick the data from messaging system
 Total connection 7.
 
-This similar work can be done by DB where in we can store the data in table form source and destination can get it from relevant tables.
-MS comes with an advantage where it receives data in it the interested destination system will get the notification about new data and later consume
+This similar work can be done by DB, where in, we can store the data in DB table from source system and destination can get it from the relevant tables.
+Messaging System comes with an advantage
+When data is received from source, interested destination system will get the notification about new data.
 
 Notification are of 2 types. Pull and Push notification (will cover later)
 
 **Two types of Messaging system:**
-A messaging system is responsible for transferring data from one application to another so the appcation can focus on data without getting bogged down on data transmission and sharing.
+A messaging system is responsible for transferring data from one application to another so the application can focus on data without getting bogged down on data transmission and sharing.
 
 **Point to Point :**
 1) One Sender and One receiver
 2) Messages are persisted in Queue
 3) Particular message can be consumed by max one consumer
 4) When sender sends teh message to queue, receiver get the notification about the message. But there is no time dependency for the receiver to consume the message from the queue
-5) As soon as message is consumed by receover, it gets deleted from queue
+5) As soon as message is consumed by receiver, it gets deleted from queue
 6) When receiver receives the message, a notification is sent back to Sender
 
 ![img_7.png](6_PointToPoint.png)
