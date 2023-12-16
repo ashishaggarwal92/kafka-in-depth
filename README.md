@@ -11,7 +11,11 @@ Repository For Kafka Understanding
 
 2) [Kafka Architecture and Features](./src/main/learning/2_architecture)
 
-3)
+3) [Installation and setup]
+- Kafka Installation
+- Zookeeper Installation
+- Running single node Kafka CLuster
+- Running single node zookeeper cluster
 
 
 
