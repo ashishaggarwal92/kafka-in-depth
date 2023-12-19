@@ -22,10 +22,10 @@
         partition count is 1
         replication factor is 1
     second line will tell partition level properties
-        Partition Id will start from 0. Id only one partition then Id will be 0, 2 partition -> Ids - 0 and 1
+        Partition Id will start from 0. If we have only one partition then Id will be 0, 2 partition -> Ids - 0 and 1
         as we have just created 1 partition we have single line
-        Leader: When we create partition for any topic and fro the given list of broker in cluster, one will be elected as leader of teh partition and all read/write will happen from the leader
-        Replicas: this partition will be peplicated on which broker. Replicas 1 -> is broker id 1
+        Leader: When we create partition for any topic, from the given list of broker in cluster, one will be elected as leader of the partition and all read/write will happen from the leader
+        Replicas: this partition will be replicated on which broker. Replicas 1 -> is broker id 1
         InSyncReplica: How many replicas of this partition is in sync
 
 
