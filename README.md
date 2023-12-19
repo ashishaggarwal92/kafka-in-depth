@@ -19,7 +19,16 @@ Repository For Kafka Understanding
 - sample zoo.cfg file for zookeeper
 - sample server.properties file for kafka
 
-4) [Topic creation | console Producers | console consumers]
+4) [Topic creation | console Producers | console consumers](./src/main/learning/4_TopicAndConsoleProducerConsumer)
+- Topic creation
+- Validate/List Topic
+- Describe Topic
+- Create console Producer
+- Create console Consumer
+- Describe consumer group
+- Kafka Consumer Offset Topic - Topic create dby Kafka to store consumer offset
+- Create multiple producers and consumers on myTopic
+- Create consumers on myTopic with custom consumer group
 
 
 
