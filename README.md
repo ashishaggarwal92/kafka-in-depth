@@ -30,6 +30,13 @@ Repository For Kafka Understanding
 - Create multiple producers and consumers on myTopic
 - Create consumers on myTopic with custom consumer group
 
+5) [Zookeeper Cluster Setup | 3 ZK Node Cluster | Local machine](./src/main/learning/5_ZK_Cluster_Setup)
+- ZK Cluster Architecture
+- ZK Cluster requirement
+- Setting up ZK CLuster with 3 nodes
+- Sample zoo.cfg for all 3 nodes of cluster
+- Setting up unique id for each zk node
+
 
 
 
