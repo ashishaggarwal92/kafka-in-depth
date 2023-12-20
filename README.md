@@ -49,6 +49,7 @@ Repository For Kafka Understanding
 - Controller Node in Kafka
 - State of Partition
 - State of Replica
+- Increasing partitions of a topic(we cant decrease it)
 - Reassigning partitions
 
 

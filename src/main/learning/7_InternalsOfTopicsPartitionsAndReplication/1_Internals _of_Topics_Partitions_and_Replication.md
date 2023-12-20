@@ -47,5 +47,28 @@ These state is managed by controller node.
     Also manages state transition of partition and replicas
 
 
+### Increasing partitions of a topic
+
+in order to understand this let's create a topic with single partition and 1 RF
+
+![img.png](2_Topic_creation.png)
+
+Describe it
+
+![img_1.png](3_Describe_topic.png)
+
+Now increase the partition of this topic
+
+    bin/kafka-topics.sh --bootstrap-server localhost:9092 --alter --topic test-topic --partition 2
+
+![img_2.png](4_Increase_Partition.png)
+
+describe it again 
+
+![img_3.png](5_Describe_topic.png)
+
+
 ### Reassigning partitions
+
+
 
