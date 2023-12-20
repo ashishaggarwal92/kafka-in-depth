@@ -25,7 +25,8 @@
 - Topics are split into partitions
 - all the messages within partition are ordered and immutable
 - each message within a partition has a unique id associated which is known as OFFSET
-- We can never decrease the number of partition. We can increase it.
+- We can never decrease the number of partition. As it may result in data loss
+- We can increase the number of partition.
 
 ![img.png](3_partitions.png)
 
