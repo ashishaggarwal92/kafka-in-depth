@@ -11,7 +11,7 @@ To understand controller node functionality
 
 After creating topic describe it:
 
-![img.png](img.png)
+![1_topic_creation.png](1_topic_creation.png)
 
 - For Partition 0 
     
