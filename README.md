@@ -37,14 +37,19 @@ Repository For Kafka Understanding
 - Sample zoo.cfg for all 3 nodes of cluster
 - Setting up unique id for each zk node
 
-6) [Kafka Cluster Setup | 3 Kafka Node Cluster | Local machine](./src/main/learning/5_ZK_Cluster_Setup)
+6) [Kafka Cluster Setup | 3 Kafka Node Cluster | Local machine](./src/main/learning/6_Kafka_Cluster_Setup)
 - Basic
 - System prerequisites
 - Setting up kafka cluster with 3 nodes
 - Properties change in order to setup kafka cluster
 - Use cases
 - Check Controller Node
-- 
+
+7) [Internals of Topics, Partitions and Replication](./src/main/learning/7_InternalsOfTopicsPartitionsAndReplication)
+- Controller Node in Kafka
+- State of Partition
+- State of Replica
+- Reassigning partitions
 
 
 
