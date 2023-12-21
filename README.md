@@ -55,10 +55,16 @@ Repository For Kafka Understanding
 - Change replication(Increase replication)
 - Selectively move replica of a partition to a specific set of brokers
 
-8) [Internals of Kafka Producer | Offsets in Kafka]()
+8) [Internals of Kafka Producer | Offsets in Kafka](./src/main/learning/8_Internals_of_Kafka_Producer_Offsets_in_Kafka)
 - Internals when producer sends message
 - Offset and types
 - Metadata of message
+
+9) [Internals of Kafka Consumer](./src/main/learning/9_Internals_of_kafka_Consumer)
+- Consumer internals
+- Current offset
+- Committed offset
+- Types of acknowledgement| Auto commit| manual commit
 
 
 
