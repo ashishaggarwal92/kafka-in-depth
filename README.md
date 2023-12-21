@@ -51,6 +51,9 @@ Repository For Kafka Understanding
 - State of Replica
 - Increasing partitions of a topic(we cant decrease it)
 - Reassigning partitions
+- Move partition across brokers
+- Change replication(Increase replication)
+- Selectively move replica of a partition to a specific set of brokers
 
 
 
