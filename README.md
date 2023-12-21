@@ -55,7 +55,10 @@ Repository For Kafka Understanding
 - Change replication(Increase replication)
 - Selectively move replica of a partition to a specific set of brokers
 
-
+8) [Internals of Kafka Producer | Offsets in Kafka]()
+- Internals when producer sends message
+- Offset and types
+- Metadata of message
 
 
 
