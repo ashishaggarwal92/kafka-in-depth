@@ -66,6 +66,15 @@ Repository For Kafka Understanding
 - Committed offset
 - Types of acknowledgement| Auto commit| manual commit
 
+10) [Internals_of_Consumer_Group](./src/main/learning/10_Internals_of_Consumer_Group)
+- Consumer Group Internals
+- Use cases
+- Consumer Group Re-balancing
+- Process involved in consumer group rebalancing
+- Group coordinator (Broker in kafka cluster)
+- Group Leader
+- What happens when a consumer join Consumer Group
+
 
 
 
