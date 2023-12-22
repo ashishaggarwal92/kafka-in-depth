@@ -76,7 +76,35 @@ Repository For Kafka Understanding
 - What happens when a consumer join Consumer Group
 
 
+11) [Demo_Producers_Consumers](./src/main/learning/11_Demo_Producers_Consumers)
+- Internals of Producers Demo
+- Internals of Consumers Demo
+- Internals of Consumer Group Demo
 
+12) [Producer_Configs](./src/main/learning/12_Producer_configs)
+- bootstrap
+- client.id
+- key&value Serializer
+- connections.max.idle.ms
+- acks config
+- compression.type
+- batch.size
+- linger.ms
+- buffer.memory
+- max.request.size
+
+
+13) [Consumer_Configs](./src/main/learning/13_Consumer_configs)
+
+- bootstrap.server
+- client.id
+- key & value Deserializer
+- group.id
+- fetch.min.bytes
+- heartbeat interval
+- session timeout
+- max.partition.fetch.bytes
+- fetch.max.bytes
 
 
 
