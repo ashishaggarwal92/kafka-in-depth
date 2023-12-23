@@ -16,11 +16,15 @@ public class MessageController {
     private KafkaProducer kafkaProducer;
 
     // http://localhost:8080/api/v1/kafka/publish?message=hello
+    // http://localhost:8090/api/v1/kafka/publish?message=hello
     @GetMapping("/publish")
     public ResponseEntity<String> publish(@RequestParam("message") String message) {
         kafkaProducer.sendMessage(message);
         return ResponseEntity.ok("Message sent to the topic");
     }
+
+
+
 
 
 }

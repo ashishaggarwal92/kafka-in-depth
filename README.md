@@ -22,8 +22,12 @@ Index:
 
 Quick commands:
 
-Start zookeeper: zkServer.cmd
-Start Kafka: D:\kafka\Kafka_node-1\bin\windows\kafka-server-start.bat D:\kafka\Kafka_node-1\config\server.properties
-Create Topic: kafka-topics.bat --bootstrap-server localhost:9092 --create --topic myTopic --partitions 1 --replication-factor 1
-Start Producer: kafka-console-producer.bat --bootstrap-server localhost:9092  --topic myTopic
-Start console consumer: kafka-console-consumer.bat --bootstrap-server localhost:9092  --topic myTopic --from-beginning
+1) Start zookeeper: zkServer.cmd
+
+2) Start Kafka: D:\kafka\Kafka_node-1\bin\windows\kafka-server-start.bat D:\kafka\Kafka_node-1\config\server.properties
+
+3) Create Topic: kafka-topics.bat --bootstrap-server localhost:9092 --create --topic myTopic --partitions 1 --replication-factor 1
+
+4) Start Producer: kafka-console-producer.bat --bootstrap-server localhost:9092  --topic myTopic
+
+5) Start console consumer: kafka-console-consumer.bat --bootstrap-server localhost:9092  --topic myTopic --from-beginning

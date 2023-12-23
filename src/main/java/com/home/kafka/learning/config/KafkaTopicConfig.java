@@ -10,9 +10,19 @@ public class KafkaTopicConfig {
 
 
     // This will create a Kafka Topic in a kafka cluster
-    //@Bean
+    // Using this topic we will consumer string message
+    @Bean
     public NewTopic myNewTopic() {
         return TopicBuilder.name("myTopic")
                 .build();
     }
+
+    // This will create a Kafka Topic in a kafka cluster
+    // Using this topic we will consumer json message
+    @Bean
+    public NewTopic myNewTopicJson() {
+        return TopicBuilder.name("myTopic_json")
+                .build();
+    }
+
 }
