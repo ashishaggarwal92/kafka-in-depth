@@ -52,3 +52,4 @@ Link : https://stream.wikimedia.org/v2/stream/recentchange
 
 1) [Create a event handler which will fetch data from above url](./spring-boot-kafka-real-world-project/src/main/java/com/home/kafka/learning/producer)
 2) Create a producer to send messages to topic
+
