@@ -40,4 +40,8 @@ Index:
 5) [Application Properties](./src/main/resources/application.properties)
 6) [Post endpoint to publish Json Message](./src/main/java/com/home/kafka/learning/controller/JsonMessageController.java)
 7) [Get endpoint to publish String Message](./src/main/java/com/home/kafka/learning/controller/MessageController.java)
-8) 
+
+# Real-World Project to stream data
+
+Read data from Wikimedia
+Link : https://stream.wikimedia.org/v2/stream/recentchange
