@@ -18,9 +18,7 @@ Index:
 14) [Troubleshooting_Issues](./src/main/learning/14_troubleshooting_issues)
 
 
-# Coding
-
-Quick commands:
+# Quick commands:
 
 1) Start zookeeper: zkServer.cmd
 
@@ -31,3 +29,15 @@ Quick commands:
 4) Start Producer: kafka-console-producer.bat --bootstrap-server localhost:9092  --topic myTopic
 
 5) Start console consumer: kafka-console-consumer.bat --bootstrap-server localhost:9092  --topic myTopic --from-beginning
+
+
+# Coding
+
+1) [Create Topic from Bean config](./src/main/java/com/home/kafka/learning/config/KafkaTopicConfig.java)
+2) [SSL Config](./src/main/java/com/home/kafka/learning/actual/project/config/KafkaSslConfig.java)
+3) [Consumer Code](./src/main/java/com/home/kafka/learning/consumer)
+4) [Producer Code](./src/main/java/com/home/kafka/learning/producer)
+5) [Application Properties](./src/main/resources/application.properties)
+6) [Post endpoint to publish Json Message](./src/main/java/com/home/kafka/learning/controller/JsonMessageController.java)
+7) [Get endpoint to publish String Message](./src/main/java/com/home/kafka/learning/controller/MessageController.java)
+8) 
