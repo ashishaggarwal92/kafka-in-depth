@@ -109,6 +109,32 @@ Repository For Kafka Understanding
 14) [Troubleshooting_Issues](./src/main/learning/14_troubleshooting_issues)
 
 
+# Quick commands:
+
+1) Start zookeeper: zkServer.cmd
+
+2) Start Kafka: D:\kafka\Kafka_node-1\bin\windows\kafka-server-start.bat D:\kafka\Kafka_node-1\config\server.properties
+
+3) Create Topic: kafka-topics.bat --bootstrap-server localhost:9092 --create --topic myTopic --partitions 1 --replication-factor 1
+
+4) Start Producer: kafka-console-producer.bat --bootstrap-server localhost:9092  --topic myTopic
+
+5) Start console consumer: kafka-console-consumer.bat --bootstrap-server localhost:9092  --topic myTopic --from-beginning
+
+
+# Coding
+
+1) [Create Topic from Bean config](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/config/KafkaTopicConfig.java)
+2) [SSL Config](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/actual/project/config/KafkaSslConfig.java)
+3) [Consumer Code](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/consumer)
+4) [Producer Code](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/producer)
+5) [Application Properties](./kafka-concepts-coding/src/main/resources/application.properties)
+6) [Post endpoint to publish Json Message](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/controller/JsonMessageController.java)
+7) [Get endpoint to publish String Message](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/controller/MessageController.java)
+
+
+
+
 
 
 
