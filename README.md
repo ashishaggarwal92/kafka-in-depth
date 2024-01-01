@@ -43,7 +43,12 @@ Goto ./kafka-concepts-coding/1_concepts_learning.md for individual topic list
 6) [Post endpoint to publish Json Message](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/controller/JsonMessageController.java)
 7) [Get endpoint to publish String Message](./kafka-concepts-coding/src/main/java/com/home/kafka/learning/controller/MessageController.java)
 
-# Real-World Project to stream data
+# [Real-World Project to stream data](./spring-boot-kafka-real-world-project)
+
+
 
 Read data from Wikimedia
 Link : https://stream.wikimedia.org/v2/stream/recentchange
+
+1) [Create a event handler which will fetch data from above url](./spring-boot-kafka-real-world-project/src/main/java/com/home/kafka/learning/producer)
+2) Create a producer to send messages to topic
