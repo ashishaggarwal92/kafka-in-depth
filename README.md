@@ -1,7 +1,8 @@
 Index:
 
+Goto ./kafka-concepts-coding/1_concepts_learning.md for individual topic list
 
-# [Concept Learning](./kafka-concepts-coding/README.md)
+# [Concept Learning](./kafka-concepts-coding/1_concepts_learning.md)
 
 1) [Introduction To Kafka](./kafka-concepts-coding/src/main/learning/1_introduction)
 2) [Kafka Architecture and Features](./kafka-concepts-coding/src/main/learning/2_architecture)
