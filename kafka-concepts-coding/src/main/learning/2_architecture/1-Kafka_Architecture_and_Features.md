@@ -11,7 +11,7 @@
 - Each consumer is associated with some consumer group
 
 
-**Topics**
+## Topics
 - Stream of messages belonging to a particular category
 - Similar to a table in DB where in we store only similar category of data
 - Unique Identifier of a topic is its name
@@ -21,7 +21,7 @@
 
 ![img.png](2_topics.png)
 
-**Partitions**
+## Partitions
 - Topics are split into partitions
 - all the messages within partition are ordered and immutable
 - each message within a partition has a unique id associated which is known as OFFSET
@@ -36,7 +36,7 @@ We split topics in to partition and distribute to multiple brokers
 
 Distribution happens in round-robin fashion to brokers
 
-**Replica/Replication**
+## Replica/Replication
 - are backups of partition
 - used to prevent data loss
 - Producer can never produce data on replica
@@ -49,7 +49,7 @@ After distribution partition are replicated to multiple brokers to prevent data 
 
 ![img.png](6_replica.png)
 
-**Producers:**
+## Producers:
 - are application which produces/write data to topics/partitions within a cluster
 
 Writing data at topic level:
@@ -59,13 +59,13 @@ message 1 to partition 1, msg 2 to partition 2 and so on
 Writing data at partition level:
 - producer can write data at partition level using some configuration(cover later)
 
-**Consumers:**
+## Consumers:
 - are application who consumes data from topics/partitions
 - are always associated with one consumer group
 - Consumer group is a group of related consumers that perform a task
 
 
-**Brokers:**
+## Brokers:
 - are the software processes who manage the topics and the messages present in the topics
 - manages the consumers by holding info about messages consumer by consumer from topics and partitions
 - also known as kafka servers
@@ -74,7 +74,7 @@ Writing data at partition level:
 - we can add more brokers in already running kafka cluster without any downtime
 - There will be one controller among multiple brokers
 
-**Zookeepers:**
+## Zookeepers:
 - manages kafka cluster
 - communicates each broker to take the status
 - each broker send heartbeat to zookeeper to let zk know that broker is alive and working

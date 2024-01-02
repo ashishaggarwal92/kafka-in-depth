@@ -26,7 +26,7 @@ Repository For Kafka Understanding
 - Create console Producer
 - Create console Consumer
 - Describe consumer group
-- Kafka Consumer Offset Topic - Topic create dby Kafka to store consumer offset
+- Kafka Consumer Offset Topic - Topic created by Kafka to store consumer offset
 - Create multiple producers and consumers on myTopic
 - Create consumers on myTopic with custom consumer group
 

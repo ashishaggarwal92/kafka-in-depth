@@ -1,14 +1,14 @@
 # KAFKA-IN-DEPTH
 
 
-**What is kafka:**
+## What is kafka:
 
 - High throughput, distributed messaging system
 - Distributed Message streaming platform that uses publish and subscribe mechanism to stream the records
 - Developed by LinkedIn and later donated to apache foundation
 - Kafka is open source
 
-**Centralize:**
+### Centralize:
 
 Store all data in only one location. If one system crash all data will be lost
 
@@ -16,7 +16,7 @@ Entity will be stored only in single location. Here one entity contains 100 reco
 
 ![img.png](1_Centralize.png)
 
-**Distributed:**
+### Distributed:
 
 Distribute entity in multiple location. 
 
@@ -39,7 +39,7 @@ Still better than centralized approach. To overcome this problem we have another
 
 Kafka follow both type of distribution. It is up to us which configuration we set.
 
-**Message streaming platform:**
+## Message streaming platform:
 
 ![img_3.png](4_Msg_Streaming_Platform.png)
 
@@ -61,10 +61,10 @@ When data is received from source, interested destination system will get the no
 
 Notification are of 2 types. Pull and Push notification (will cover later)
 
-**Two types of Messaging system:**
+### Two types of Messaging system:
 A messaging system is responsible for transferring data from one application to another so the application can focus on data without getting bogged down on data transmission and sharing.
 
-**Point to Point :**
+### Point to Point :
 1) One Sender and One receiver
 2) Messages are persisted in Queue
 3) Particular message can be consumed by max one consumer
@@ -74,7 +74,7 @@ A messaging system is responsible for transferring data from one application to 
 
 ![img_7.png](6_PointToPoint.png)
 
-**Publish-Subscribe:**
+### Publish-Subscribe:
 1) Message are persisted in topic
 2) Particular message can be consumed by any number of consumer
 3) Subscriber has a time limit(configurable - default is 7 days) to consumer the message from topic
