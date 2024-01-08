@@ -15,12 +15,12 @@ After creating topic describe it:
 
 - For Partition 0 
     
-      Have 2 replicas in broker 1 and broker 2
+      Have 2 replicas in broker(node) 1 and broker 3
     
-      Leader is 1 which implies all read and write will happen from broker 1. Main working replica will be broker 1. Broker 2 will only come in to picture in case broker 1 is down
+      Leader is 3 which implies all read and write will happen from broker 1. Main working replica will be broker 3. Broker 1 will only come in to picture in case broker 3 is down
     
-      **ISR is 1,2 - ISR will always be the subset of replicas. Possible combination of ISR could be {1},{2},{1,2} depending on both brokers are up or not
-                 Both the brokers will always be in sync. When producer send a message to broker 1(broker 1 is leader of partition 0) then broker 2 will send a fetch request to broker 1 in order to be in sync with broker 1**
+      **ISR is 1,3 - ISR will always be the subset of replicas. Possible combination of ISR could be {1},{3},{1,3} depending on both brokers are up or not
+                 Both the brokers will always be in sync. When producer send a message to broker 3(broker 3 is leader of partition 0) then broker 1 will send a fetch request to broker 3 in order to be in sync with broker 3**
 
 - For Partition 1
 
