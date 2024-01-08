@@ -25,9 +25,8 @@ same concept as producer
 
 ### 5) fetch.min.bytes
 - default value is 1 byte
-- 
 
-![img.png](3_fetch.min.bytes.png
+![3_fetch.min.bytes.png](3_fetch.min.bytes.png)
 
 ### 6) heartbeat.interval.ms
 
