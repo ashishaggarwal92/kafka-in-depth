@@ -45,7 +45,7 @@ same concept as producer
 - default value is 10 sec
 - if consumer doesn't send heart beat in 10 sec then it is considered to be dead
 
-![img.png](5_ session.timeout.ms.png)
+![5_ session.timeout.ms.png](5_%20session.timeout.ms.png)
 
 ### 8) max.partition.fetch.bytes
 
